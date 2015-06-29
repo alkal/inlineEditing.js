@@ -1,7 +1,7 @@
-# InlineFormElements
-This is a jQuery plugin that allows you to create editable elements on your html form. It can be use with any front-end framework.
+# inlineEditing.js
+jQuery plugin for creating editable form elements, independent of front-end framework.
 
-For more info, go to [the project page](http://alkal.github.io/InlineFormElements).
+For more info, go to [the project page](http://alkal.github.io/inlineEditing.js).
 
 [Follow me on Twitter](http://twitter.com/alkal_tweet)
 
