@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>inlineEditing.js</title>
+    <meta name="description" content="jQuery plugin for creating editable form elements, independent of front-end framework">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <!-- Load jQuery Library -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Load inlineEditing JS -->
+    <script type="text/javascript" src="./js/inlineEditing.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>inlineEditing.js</h1>
+            <h3>jQuery plugin for creating editable form elements, independent of front-end framework</h3>
+            <a href="https://twitter.com/alkal_tweet" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @alkal_tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <div id="author">
+                <p>Created by <a href="http://alkal.gr" target="_blank">Alexandros Kalamatianos</a></p>
+            </div>
+        </header>
+
+        <a href="https://github.com/alkal/InlineFormElements/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+        <h2>Download</h2>
+        <p>Source files <a href="https://github.com/alkal/InlineFormElements/" target="_blank">on github</a> or <a href="https://github.com/alkal/InlineFormElements/archive/master.zip" target="_blank">download the zip</a>.</p>
+
+        <h2>Simple Example</h2>
+       <br/>
+        <form action="" method="post">
+            <fieldset>
+                <div>
+                    <label for="inputField">Input Field:</label>
+                    <input type="text" id="inputField" value="" tabindex="1"/>
+                </div>
+                <div>
+                    <label for="selectField">Select Field:</label>
+                    <select id="selectField" tabindex="2">
+                        <option value="0" selected="selected"> - Select One - </option>
+                        <option value="1">Option #1</option>
+                        <option value="2">Option #2</option>
+                        <option value="3">Option #3</option>
+                        <option value="4">Option #4</option>
+                        <option value="5">Option #5</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textareaField">Textarea Field:</label>
+                    <textarea id="textareaField" rows="5" cols="25" tabindex="3"></textarea>
+                </div>
+            </fieldset>
+        </form>
+        <!-- Load the AutoSize JavaScript file -->
+        <script type="text/javascript" src="./js/jquery.autosize.js"></script>
+    </div>
+</body>
+</html>
